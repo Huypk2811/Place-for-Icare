@@ -1,0 +1,22 @@
+{
+  "candidate_count": 31,
+  "by_district": {
+    "Quận 12": 5,
+    "Bình Tân": 5,
+    "Bình Thạnh": 5,
+    "Quận 7": 8,
+    "Gò Vấp": 8
+  },
+  "candidate_with_draft_endpoints": 8,
+  "candidate_with_osm_geometry": 8,
+  "endpoint_gaps": 23,
+  "source_workbook": "Data_input_TOP5_FRAMEWORK_V3.xlsx",
+  "constraints": [
+    "No traffic volume inference",
+    "No auto-picked START/END",
+    "OSM geometry provisional until QA",
+    "Rent median only from historic clean independent usable samples (not recomputed here)",
+    "No scoring until comparable corridor evidence and geometry validated",
+    "Original district 5 selection remains independent of these corridor outputs"
+  ]
+}

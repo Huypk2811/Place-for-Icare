@@ -1,0 +1,9 @@
+{
+  "corridors_audited": 15,
+  "historic_medians_blocked_due_to_n_below_3": 4,
+  "rent_rows_with_n_ge_3_pending_listing_verification": 6,
+  "review_segments": 30,
+  "validated_segment_endpoints": 0,
+  "no_inputs_modified": true,
+  "note": "Only a QA gate; no rent median or business score is validated by this script."
+}

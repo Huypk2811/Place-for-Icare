@@ -1,0 +1,8 @@
+{
+  "segments": 8,
+  "intersections": 12,
+  "places": 12,
+  "road_geometry_loaded": 0,
+  "qa_findings": 1,
+  "method": "WGS84 Haversine endpoint distances + local tangent-plane point-to-segment for descriptive proxy. No traffic volume or road travel distance."
+}

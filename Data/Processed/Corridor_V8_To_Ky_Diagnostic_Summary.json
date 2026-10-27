@@ -1,0 +1,8 @@
+{
+  "source_pbf": "D:\\IcareWork\\Place for icare\\Data\\Raw\\vietnam-latest.osm.pbf",
+  "total_ways_scanned": 4741701,
+  "named_road_ways_matching_to_ky": 55,
+  "matching_ways_intersecting_original_bbox": 46,
+  "auto_selected_endpoints": 0,
+  "note": "Name/alias diagnostic only. A matching way is not an intersection or a selected corridor endpoint."
+}

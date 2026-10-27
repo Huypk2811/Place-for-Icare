@@ -1,0 +1,103 @@
+﻿intersection_id,candidate_id,district_old,corridor_name,latitude,longitude,osmid,matched_names,crossing_names,nearest_observed_gps_km,source,method,review_status,alias_match_review
+Q12-02-I001,Q12-02,Quận 12,Lê Văn Khương,10.8650687,106.649537,13542735738,Lê Văn Khương,Nguyễn Thị Kiểu,3.636,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I002,Q12-02,Quận 12,Lê Văn Khương,10.8656399,106.6495755,3344036544,Lê Văn Khương,Ba Du,3.641,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I003,Q12-02,Quận 12,Lê Văn Khương,10.8680257,106.6494627,3344036882,Lê Văn Khương,Hiệp Thành 35,3.641,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I004,Q12-02,Quận 12,Lê Văn Khương,10.8691704,106.6494105,5762778439,Lê Văn Khương,Hiệp Thành 45,3.648,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I005,Q12-02,Quận 12,Lê Văn Khương,10.864198,106.6496485,5765425843,Lê Văn Khương,Thới An 4,3.65,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I006,Q12-02,Quận 12,Lê Văn Khương,10.8704601,106.6493376,10904738560,Lê Văn Khương,Hẻm 213 Lê Văn Khương,3.659,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I007,Q12-02,Quận 12,Lê Văn Khương,10.8625349,106.6496727,4069466108,Lê Văn Khương,Đỗ Mười,3.664,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I008,Q12-02,Quận 12,Lê Văn Khương,10.8710712,106.6493028,3344037196,Lê Văn Khương,Hẻm 244 Lê Văn Khương,3.667,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I009,Q12-02,Quận 12,Lê Văn Khương,10.8711405,106.6492987,366445872,Lê Văn Khương,Hẻm 237 Lê Văn Khương,3.668,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I010,Q12-02,Quận 12,Lê Văn Khương,10.8621091,106.6496813,5765428386,Lê Văn Khương,Đỗ Mười,3.669,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I011,Q12-02,Quận 12,Lê Văn Khương,10.8715252,106.6492886,366476166,Lê Văn Khương,Trần Thị Cờ,3.675,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I012,Q12-02,Quận 12,Lê Văn Khương,10.8719712,106.6492628,13922025941,Lê Văn Khương,Hẻm Khu Nhà 225 Lê Văn Khương,3.681,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I013,Q12-02,Quận 12,Lê Văn Khương,10.8731363,106.6492077,3344037267,Lê Văn Khương,Hẻm 292 Lê Văn Khương,3.704,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I014,Q12-02,Quận 12,Lê Văn Khương,10.8621815,106.6501042,2247676287,Lê Văn Khương,Đỗ Mười,3.714,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I015,Q12-02,Quận 12,Lê Văn Khương,10.8741779,106.6491506,5757778747,Lê Văn Khương,Đường Chung Thị Minh,3.727,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I016,Q12-02,Quận 12,Lê Văn Khương,10.8758714,106.6490932,2871648002,Lê Văn Khương,Nguyễn Thị Kiêu,3.775,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I017,Q12-02,Quận 12,Lê Văn Khương,10.8761153,106.6490833,5755090041,Lê Văn Khương,Nguyễn Ảnh Thủ,3.783,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I018,Q12-02,Quận 12,Lê Văn Khương,10.8782598,106.6489606,366448955,Lê Văn Khương,Lê Quang Hòa,3.852,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I019,Q12-02,Quận 12,Lê Văn Khương,10.8807896,106.6488211,5755090040,Lê Văn Khương,Thới An 15,3.953,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I020,Q12-02,Quận 12,Lê Văn Khương,10.8816637,106.6486731,3283393106,Lê Văn Khương,Dương Thị Mạnh,3.981,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I021,Q12-02,Quận 12,Lê Văn Khương,10.8817071,106.6486683,3344037398,Lê Văn Khương,Hẻm 389 Lê Văn Khương,3.983,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I022,Q12-02,Quận 12,Lê Văn Khương,10.8827533,106.648515,5752943162,Lê Văn Khương,Thới An 12,4.023,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I023,Q12-02,Quận 12,Lê Văn Khương,10.8828866,106.6484963,366386921,Lê Văn Khương,Thới An 11,4.028,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I024,Q12-02,Quận 12,Lê Văn Khương,10.8847408,106.6481688,366423723,Lê Văn Khương,Hẻm 453 Lê Văn Khương | Võ Thị Phải,4.102,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I025,Q12-02,Quận 12,Lê Văn Khương,10.8866395,106.6477975,5752943189,Lê Văn Khương,Hẻm 572 Lê Văn Khương,4.184,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I026,Q12-02,Quận 12,Lê Văn Khương,10.8870146,106.6477235,5752943191,Lê Văn Khương,Hẻm 501 Lê Văn Khương,4.201,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I027,Q12-02,Quận 12,Lê Văn Khương,10.8872901,106.6476692,366437561,Lê Văn Khương,Trần Văn Lắm,4.214,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I028,Q12-02,Quận 12,Lê Văn Khương,10.8881826,106.6475035,5750490681,Lê Văn Khương,Hẻm 523 Lê Văn Khương,4.257,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I029,Q12-02,Quận 12,Lê Văn Khương,10.8890903,106.6473204,366476911,Lê Văn Khương,Thới An 5 | Đường Vào Chùa Pháp Thạnh,4.303,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I030,Q12-02,Quận 12,Lê Văn Khương,10.8893863,106.6472652,12803523493,Lê Văn Khương,Hẻm 640 Lê Văn Khương,4.318,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I031,Q12-02,Quận 12,Lê Văn Khương,10.8895051,106.647244,5750490765,Lê Văn Khương,Hẻm 563 Lê Văn Khương,4.325,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I032,Q12-02,Quận 12,Lê Văn Khương,10.8908422,106.6470947,5750509386,Lê Văn Khương,Hẻm 662 Lê Văn Khương,4.406,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I033,Q12-02,Quận 12,Lê Văn Khương,10.8908895,106.6470897,5750490796,Lê Văn Khương,Hẻm 567 Lê Văn Khương,4.409,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I034,Q12-02,Quận 12,Lê Văn Khương,10.8945782,106.6468924,4644179824,Lê Văn Khương,Cầu Dừa,4.669,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I035,Q12-02,Quận 12,Lê Văn Khương,10.8949781,106.646822,370556289,Lê Văn Khương,Cầu Dừa,4.694,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I036,Q12-02,Quận 12,Lê Văn Khương,10.8955511,106.6466593,5748228930,Lê Văn Khương,Đường Lê Văn Khương,4.727,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I037,Q12-02,Quận 12,Lê Văn Khương,10.9008929,106.6452913,5800280272,Lê Văn Khương,Trịnh Thị Dối | Đường Lê Văn Khương,5.072,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I038,Q12-02,Quận 12,Lê Văn Khương,10.9046051,106.6441538,366471402,Lê Văn Khương,Đông Thạnh 6,5.328,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I039,Q12-02,Quận 12,Lê Văn Khương,10.9052494,106.6439232,366452423,Lê Văn Khương,Nguyễn Thị Dễ,5.373,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-02-I040,Q12-02,Quận 12,Lê Văn Khương,10.908865,106.6443231,12110064115,Lê Văn Khương,Bùi Công Trừng | Đường Lê Văn Khương | Đường Đặng Thúc Vịnh,5.733,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I001,Q12-05,Quận 12,Hà Huy Giáp,10.8515454,106.6788717,370818155,Hà Huy Giáp,Cầu An Lộc,6.393,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I002,Q12-05,Quận 12,Hà Huy Giáp,10.8523969,106.6790968,5737807704,Hà Huy Giáp,Hẻm 18 Hà Huy Giáp,6.453,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I003,Q12-05,Quận 12,Hà Huy Giáp,10.8531359,106.6791223,5737813186,Hà Huy Giáp,Đường Khu Du Lịch Bến Xưa,6.489,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I004,Q12-05,Quận 12,Hà Huy Giáp,10.8539591,106.679254,366403436,Hà Huy Giáp,Nguyễn Thị Nhuần,6.541,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I005,Q12-05,Quận 12,Hà Huy Giáp,10.8702588,106.677049,5758077361,Hà Huy Giáp,Thạnh Lộc 22,6.663,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I006,Q12-05,Quận 12,Hà Huy Giáp,10.8733264,106.6768225,5758077411,Hà Huy Giáp,Hèm 489,6.675,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I007,Q12-05,Quận 12,Hà Huy Giáp,10.8562727,106.6795449,366438681,Hà Huy Giáp,Hẻm 139 Hà Huy Giáp,6.683,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I008,Q12-05,Quận 12,Hà Huy Giáp,10.8695313,106.6772965,5763268916,Hà Huy Giáp,Hẻm 425,6.684,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I009,Q12-05,Quận 12,Hà Huy Giáp,10.868813,106.6777356,5763268921,Hà Huy Giáp,Hẻm 551 Hà Huy Giáp,6.727,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I010,Q12-05,Quận 12,Hà Huy Giáp,10.8573619,106.6796861,5769821094,Hà Huy Giáp,Hẻm 171 Hà Huy Giáp,6.752,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I011,Q12-05,Quận 12,Hà Huy Giáp,10.868353,106.67811,5655390729,Hà Huy Giáp,Đường Thạnh Xuân 18,6.765,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I012,Q12-05,Quận 12,Hà Huy Giáp,10.8578396,106.6797483,366397002,Hà Huy Giáp,Hẻm 187 Hà Huy Giáp,6.783,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I013,Q12-05,Quận 12,Hà Huy Giáp,10.8678793,106.6785652,378248006,Hà Huy Giáp,Cầu Giao Khẩu,6.812,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I014,Q12-05,Quận 12,Hà Huy Giáp,10.8770478,106.677485,5758077339,Hà Huy Giáp,Cầu Ba Thôn,6.814,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I015,Q12-05,Quận 12,Hà Huy Giáp,10.8596484,106.6791519,2466118968,Hà Huy Giáp,Hẻm 247 Hà Huy Giáp,6.825,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I016,Q12-05,Quận 12,Hà Huy Giáp,10.8675837,106.678852,366412790,Hà Huy Giáp,Cầu Giao Khẩu,6.842,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I017,Q12-05,Quận 12,Hà Huy Giáp,10.8776551,106.6777502,366468541,Hà Huy Giáp,Cầu Ba Thôn,6.856,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I018,Q12-05,Quận 12,Hà Huy Giáp,10.8591745,106.6799122,370818130,Hà Huy Giáp,Cầu vượt Ngã tư Ga,6.871,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I019,Q12-05,Quận 12,Hà Huy Giáp,10.8614993,106.6790827,4069450023,Hà Huy Giáp,Đường Đỗ Mười | Đỗ Mười,6.876,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I020,Q12-05,Quận 12,Hà Huy Giáp,10.8605171,106.6791893,2466118971,Hà Huy Giáp,Lô B1-B2 KDC Nam Long,6.877,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I021,Q12-05,Quận 12,Hà Huy Giáp,10.8671779,106.679258,13161479102,Hà Huy Giáp,Hẻm 35 Thạnh Lộc 19,6.885,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I022,Q12-05,Quận 12,Hà Huy Giáp,10.8781438,106.6779714,3217904585,Hà Huy Giáp,Thạnh Lộc 29,6.891,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I023,Q12-05,Quận 12,Hà Huy Giáp,10.8595718,106.6799,2466122064,Hà Huy Giáp,Hẻm 247 Hà Huy Giáp,6.891,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I024,Q12-05,Quận 12,Hà Huy Giáp,10.8610098,106.6792275,2466122094,Hà Huy Giáp,Lô B1-B2 KDC Nam Long,6.895,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I025,Q12-05,Quận 12,Hà Huy Giáp,10.8614642,106.6795098,2466118973,Hà Huy Giáp,Đỗ Mười,6.922,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I026,Q12-05,Quận 12,Hà Huy Giáp,10.8614323,106.679948,366453363,Hà Huy Giáp,Đỗ Mười,6.97,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I027,Q12-05,Quận 12,Hà Huy Giáp,10.8814971,106.6794551,366477808,Hà Huy Giáp,Nguyễn Thị Sáu,7.134,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I028,Q12-05,Quận 12,Hà Huy Giáp,10.8815941,106.6794936,3296659857,Hà Huy Giáp,Đường Thạnh Lộc 40,7.141,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+Q12-05-I029,Q12-05,Quận 12,Hà Huy Giáp,10.8818341,106.6795868,3296661861,Hà Huy Giáp,Tô Ngọc Vân,7.157,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I001,BT-05,Bình Tân,Võ Trần Chí,10.758855,106.5842425,2214438494,Đường Võ Trần Chí,Cầu Sông Chùa,0.714,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I002,BT-05,Bình Tân,Võ Trần Chí,10.7563973,106.5836271,2256595637,Đường Võ Trần Chí,Cầu Sông Chùa,0.738,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I003,BT-05,Bình Tân,Võ Trần Chí,10.7621758,106.5850638,5783388988,Đường Võ Trần Chí,Hồ Văn Long,0.846,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I004,BT-05,Bình Tân,Võ Trần Chí,10.753917,106.5828297,2256595643,Đường Võ Trần Chí,Đường Cầu Kinh,0.879,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I005,BT-05,Bình Tân,Võ Trần Chí,10.7535149,106.5826853,2402040197,Đường Võ Trần Chí,Cầu Kênh 1,0.91,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I006,BT-05,Bình Tân,Võ Trần Chí,10.7649301,106.5886724,2214438493,Đường Võ Trần Chí,Cầu vượt Tân Tạo,0.94,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I007,BT-05,Bình Tân,Võ Trần Chí,10.7494664,106.5814042,2214439525,Đường Võ Trần Chí,Trần Văn Giàu,1.264,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I008,BT-05,Bình Tân,Võ Trần Chí,10.7488801,106.5812462,3081156048,Đường Võ Trần Chí,Cầu Kênh 2,1.319,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I009,BT-05,Bình Tân,Võ Trần Chí,10.7449686,106.5804301,2214439528,Đường Võ Trần Chí,Cầu Kênh 3,1.693,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I010,BT-05,Bình Tân,Võ Trần Chí,10.7442568,106.5802816,2940029422,Đường Võ Trần Chí,Lê Ngung,1.765,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I011,BT-05,Bình Tân,Võ Trần Chí,10.7436599,106.5800574,10792333404,Đường Võ Trần Chí,Cống Hộp,1.832,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I012,BT-05,Bình Tân,Võ Trần Chí,10.7404726,106.5795454,2854548611,Đường Võ Trần Chí,Cầu Kênh 4,2.153,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I013,BT-05,Bình Tân,Võ Trần Chí,10.735909,106.5786339,2940027601,Đường Võ Trần Chí,Cầu Kênh 5,2.639,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I014,BT-05,Bình Tân,Võ Trần Chí,10.734044,106.5782822,3128682219,Đường Võ Trần Chí,Cầu Kênh 6,2.839,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I015,BT-05,Bình Tân,Võ Trần Chí,10.7335832,106.5781014,4974882248,Đường Võ Trần Chí,Lê Ngung,2.894,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I016,BT-05,Bình Tân,Võ Trần Chí,10.7311392,106.5776981,10792333375,Đường Võ Trần Chí,Đường gom Võ Trần Chí,3.156,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I017,BT-05,Bình Tân,Võ Trần Chí,10.7309666,106.577665,2402040957,Đường Võ Trần Chí,Cống Cái Trung,3.175,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I018,BT-05,Bình Tân,Võ Trần Chí,10.7305114,106.5775612,2402040956,Đường Võ Trần Chí,Cống Cái Trung,3.226,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I019,BT-05,Bình Tân,Võ Trần Chí,10.7303111,106.5775129,2214455543,Đường Võ Trần Chí,Trần Đại Nghĩa,3.248,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I020,BT-05,Bình Tân,Võ Trần Chí,10.7261766,106.576501,2940025316,Đường Võ Trần Chí,Cầu Kênh 7,3.712,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I021,BT-05,Bình Tân,Võ Trần Chí,10.7215469,106.5753748,2214455544,Đường Võ Trần Chí,Cầu Kênh 8,4.233,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I022,BT-05,Bình Tân,Võ Trần Chí,10.7191813,106.5748076,5748227315,Đường Võ Trần Chí,Lê Bá Trinh,4.5,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I023,BT-05,Bình Tân,Võ Trần Chí,10.7191767,106.57471,2214446093,Đường Võ Trần Chí,Cầu Kênh 9,4.504,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I024,BT-05,Bình Tân,Võ Trần Chí,10.7087448,106.5725475,9990549671,Đường Võ Trần Chí,Kênh 10,5.671,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I025,BT-05,Bình Tân,Võ Trần Chí,10.708627,106.5725266,2402041014,Đường Võ Trần Chí,Cầu Kênh 10,5.684,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I026,BT-05,Bình Tân,Võ Trần Chí,10.7082211,106.5724274,2402041015,Đường Võ Trần Chí,Cầu Kênh 10,5.731,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I027,BT-05,Bình Tân,Võ Trần Chí,10.7028502,106.5712967,5755613150,Đường Võ Trần Chí,Đường gom Võ Trần Chí,6.225,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I028,BT-05,Bình Tân,Võ Trần Chí,10.7026352,106.5712399,2214455538,Đường Võ Trần Chí,Đường Thế Lữ,6.246,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I029,BT-05,Bình Tân,Võ Trần Chí,10.7017008,106.5710246,2214455536,Đường Võ Trần Chí,Cầu Rạch Tam,6.331,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I030,BT-05,Bình Tân,Võ Trần Chí,10.697281,106.5700054,2214455548,Đường Võ Trần Chí,Cầu Rạch Tam,6.741,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I031,BT-05,Bình Tân,Võ Trần Chí,10.6933657,106.5691269,2215842694,Đường Võ Trần Chí,Cầu Chợ Đệm,7.113,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I032,BT-05,Bình Tân,Võ Trần Chí,10.6890288,106.5681292,2215842693,Đường Võ Trần Chí,Cầu Chợ Đệm,7.536,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0
+BT-05-I033,BT-05,Bình Tân,Võ Trần Chí,10.6848936,106.5688962,2214455527,Đường Võ Trần Chí,Đường dẫn cao tốc Thành phố Hồ Chí Minh – Trung Lương,7.825,Geofabrik Vietnam OSM PBF,shared_osm_node_named_drive_ways,PROVISIONAL_CHECK_ON_MAP,0

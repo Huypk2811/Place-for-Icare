@@ -1,0 +1,6 @@
+﻿corridor_id,status,details
+Q7-01,MIXED_NAMED_ROAD_FALLBACK_REVIEW,"fallback length=3.257km, unmatched=114m (3.5%), snaps=13/3m, alternate names=['Cầu Đa Khoa', 'Nguyễn Hữu Thọ']"
+Q7-02,MIXED_NAMED_ROAD_FALLBACK_REVIEW,"fallback length=1.379km, unmatched=142m (10.3%), snaps=13/14m, alternate names=['Cầu Rạch Bàng 2']"
+Q7-03,MIXED_NAMED_ROAD_FALLBACK_REVIEW,"fallback length=2.379km, unmatched=238m (10.0%), snaps=14/5m, alternate names=['', 'Cầu Thầy Tiêu', 'Nguyễn Cao', 'Nguyễn Hữu Thọ', 'Nguyễn Lương Bằng']"
+GV-06,SOURCE_INTERSECTION_UNCONFIRMED,"snap_start=17m, snap_end=21m; detour=1.00"
+GV-07,SOURCE_INTERSECTION_UNCONFIRMED,"snap_start=18m, snap_end=16m; detour=1.01"

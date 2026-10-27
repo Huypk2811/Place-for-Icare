@@ -1,0 +1,13 @@
+﻿research_area,corridor_candidate,point_name_address,point_type,latitude,longitude,coordinate_source,coordinate_status,corridor_role
+Quận 7,Nguyễn Thị Thập,207 Nguyễn Thị Thập,competitor,10.738325890506164,106.71844348048016,user_google_maps_pin_and_screenshot_2026-10-20,user_screenshot_pin_confirmed_not_field_verified,anchor_or_competitor_not_start_end
+Quận 7,Huỳnh Tấn Phát,352 Huỳnh Tấn Phát,competitor,10.748425323353406,106.72870888048037,user_manual_google_maps,user_supplied_not_independently_verified,anchor_or_competitor_not_start_end
+Quận 7,Nguyễn Hữu Thọ,469 Nguyễn Hữu Thọ — LOTTE Mart,retail_anchor,10.741310823760871,106.70176403815142,user_manual_google_maps,user_supplied_not_independently_verified,anchor_or_competitor_not_start_end
+Quận 7,Nguyễn Hữu Thọ,19 Nguyễn Hữu Thọ — ĐH Tôn Đức Thắng,education_anchor,10.732224686779052,106.69937343307855,user_manual_google_maps,user_supplied_not_independently_verified,anchor_or_competitor_not_start_end
+Quận 7,Nguyễn Văn Linh,702 Nguyễn Văn Linh — RMIT,education_anchor,10.72957435595945,106.69393891198958,user_manual_google_maps,user_supplied_not_independently_verified,anchor_or_competitor_not_start_end
+Quận 7,Nguyễn Văn Linh,1058 Nguyễn Văn Linh — SC VivoCity,retail_anchor,10.730312901758833,106.70341031116475,user_manual_google_maps,user_supplied_not_independently_verified,anchor_or_competitor_not_start_end
+Quận 7,Nguyễn Lương Bằng,6 Nguyễn Lương Bằng — Bệnh viện FV,healthcare_anchor,10.732639924422603,106.71796388048014,user_manual_google_maps,user_supplied_not_independently_verified,anchor_or_competitor_not_start_end
+Gò Vấp,Quang Trung,190 Quang Trung — Vincom Plaza,retail_anchor,10.829452344637943,106.67264283815226,user_manual_google_maps,user_supplied_not_independently_verified,anchor_or_competitor_not_start_end
+Gò Vấp,Quang Trung,615 Quang Trung,competitor,10.835057443247797,106.66321169297073,user_google_maps_pin_and_screenshot_2026-10-20,user_screenshot_pin_confirmed_not_field_verified,anchor_or_competitor_not_start_end
+Gò Vấp,Phan Văn Trị,366 Phan Văn Trị — Emart,retail_anchor,10.823638848732935,106.69358333815214,user_manual_google_maps,user_supplied_not_independently_verified,anchor_or_competitor_not_start_end
+Gò Vấp,Phan Văn Trị,881 Phan Văn Trị,competitor,10.829439051000216,106.68148642094053,user_google_maps_pin_and_screenshot_2026-10-20,user_screenshot_pin_confirmed_not_field_verified,anchor_or_competitor_not_start_end
+Gò Vấp,Nguyễn Văn Lượng,242 Nguyễn Văn Lượng — LOTTE Mart,retail_anchor,10.838446125935894,106.67082323815237,user_manual_google_maps,user_supplied_not_independently_verified,anchor_or_competitor_not_start_end

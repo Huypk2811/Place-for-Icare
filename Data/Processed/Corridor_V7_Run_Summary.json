@@ -1,0 +1,13 @@
+{
+  "corridors_total": 15,
+  "corridors_with_candidates": 14,
+  "corridors_without_candidates": [
+    "Tô Ký"
+  ],
+  "v5_rows": 222,
+  "v6_rows_raw": 102,
+  "v6_rows_after_consistent_filter": 52,
+  "merged_candidate_rows": 274,
+  "auto_selected_endpoints": 0,
+  "note": "Review candidates only; not administrative coverage, not traffic, no rent or site score."
+}

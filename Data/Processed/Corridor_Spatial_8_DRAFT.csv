@@ -1,0 +1,9 @@
+﻿corridor_id,district_old,corridor_name,start_id,end_id,chord_km,road_centerline_km,geometry_type,geometry_status,validation_status,point_count,nearby_anchors_250m,nearby_competitors_250m,method_note
+Q7-01,Quận 7,Nguyễn Thị Thập,Q7-01,Q7-02,3.25,,START_END_CHORD_PROXY,NEEDS_ROAD_CENTERLINE,DRAFT,7,1,1,"Distance-to-chord is not distance-to-road; no route, traffic or catchment inference"
+Q7-02,Quận 7,Nguyễn Hữu Thọ,Q7-01,Q7-03,1.357,,START_END_CHORD_PROXY,NEEDS_ROAD_CENTERLINE,DRAFT,7,2,0,"Distance-to-chord is not distance-to-road; no route, traffic or catchment inference"
+Q7-03,Quận 7,Nguyễn Văn Linh,Q7-03,Q7-04,2.149,,START_END_CHORD_PROXY,NEEDS_ROAD_CENTERLINE,DRAFT,7,2,0,"Distance-to-chord is not distance-to-road; no route, traffic or catchment inference"
+Q7-04,Quận 7,Huỳnh Tấn Phát,Q7-02,Q7-05,2.28,,START_END_CHORD_PROXY,NEEDS_ROAD_CENTERLINE,DRAFT,7,0,0,"Distance-to-chord is not distance-to-road; no route, traffic or catchment inference"
+GV-05,Gò Vấp,Quang Trung,GV-01,GV-02,1.958,,START_END_CHORD_PROXY,NEEDS_ROAD_CENTERLINE,DRAFT,5,1,1,"Distance-to-chord is not distance-to-road; no route, traffic or catchment inference"
+GV-06,Gò Vấp,Phan Văn Trị,GV-03,GV-04,1.479,,START_END_CHORD_PROXY,NEEDS_ROAD_CENTERLINE,INTERSECTION_UNCONFIRMED,5,0,1,"Distance-to-chord is not distance-to-road; no route, traffic or catchment inference"
+GV-07,Gò Vấp,Nguyễn Văn Lượng,GV-05,GV-06,1.122,,START_END_CHORD_PROXY,NEEDS_ROAD_CENTERLINE,INTERSECTION_UNCONFIRMED,5,1,0,"Distance-to-chord is not distance-to-road; no route, traffic or catchment inference"
+GV-08,Gò Vấp,Nguyễn Oanh,GV-03,GV-07,1.239,,START_END_CHORD_PROXY,NEEDS_ROAD_CENTERLINE,DRAFT,5,0,0,"Distance-to-chord is not distance-to-road; no route, traffic or catchment inference"

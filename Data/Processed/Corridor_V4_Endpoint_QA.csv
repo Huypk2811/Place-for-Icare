@@ -1,0 +1,16 @@
+﻿candidate_id,district_old,corridor_name,status,candidates_found,candidates_exported,note
+Q12-01,Quận 12,Đỗ Mười,CANDIDATES_FOUND_REVIEW,26,26,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.
+Q12-02,Quận 12,Lê Văn Khương,NO_NAMED_INTERSECTIONS_IN_GPS_BBOX,0,0,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.
+Q12-03,Quận 12,Nguyễn Ảnh Thủ,CANDIDATES_FOUND_REVIEW,51,51,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.
+Q12-04,Quận 12,Tô Ký,NO_NAMED_INTERSECTIONS_IN_GPS_BBOX,0,0,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.
+Q12-05,Quận 12,Hà Huy Giáp,NO_NAMED_INTERSECTIONS_IN_GPS_BBOX,0,0,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.
+BT-01,Bình Tân,Kinh Dương Vương,CANDIDATES_FOUND_REVIEW,46,46,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.
+BT-02,Bình Tân,QL1 / Lê Đức Anh,CANDIDATES_FOUND_REVIEW,69,69,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.
+BT-03,Bình Tân,Tên Lửa,CANDIDATES_FOUND_REVIEW,36,36,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.
+BT-04,Bình Tân,Tân Kỳ Tân Quý,CANDIDATES_FOUND_REVIEW,75,75,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.
+BT-05,Bình Tân,Võ Trần Chí,NO_NAMED_INTERSECTIONS_IN_GPS_BBOX,0,0,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.
+BTH-01,Bình Thạnh,Xô Viết Nghệ Tĩnh,CANDIDATES_FOUND_REVIEW,80,80,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.
+BTH-02,Bình Thạnh,Quốc lộ 13,CANDIDATES_FOUND_REVIEW,21,21,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.
+BTH-03,Bình Thạnh,Đinh Bộ Lĩnh,CANDIDATES_FOUND_REVIEW,36,36,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.
+BTH-04,Bình Thạnh,Nguyễn Xí,CANDIDATES_FOUND_REVIEW,35,35,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.
+BTH-05,Bình Thạnh,Nơ Trang Long,CANDIDATES_FOUND_REVIEW,75,75,Candidate discovery only; observed competitor BBOX is not full district boundary; no endpoint selection.

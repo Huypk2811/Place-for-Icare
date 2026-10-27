@@ -1,0 +1,5 @@
+﻿candidate_id,district_old,corridor_name,status,candidates_found,candidates_exported,note
+Q12-02,Quận 12,Lê Văn Khương,CANDIDATES_FOUND_REVIEW,40,40,V6 expanded 6km around observed GPS; NOT full boundary; shared nodes only; no endpoint selection.
+Q12-04,Quận 12,Tô Ký,NO_NAMED_INTERSECTIONS_IN_GPS_BBOX,0,0,V6 expanded 6km around observed GPS; NOT full boundary; shared nodes only; no endpoint selection.
+Q12-05,Quận 12,Hà Huy Giáp,CANDIDATES_FOUND_REVIEW,29,29,V6 expanded 6km around observed GPS; NOT full boundary; shared nodes only; no endpoint selection.
+BT-05,Bình Tân,Võ Trần Chí,CANDIDATES_FOUND_REVIEW,33,33,V6 expanded 6km around observed GPS; NOT full boundary; shared nodes only; no endpoint selection.

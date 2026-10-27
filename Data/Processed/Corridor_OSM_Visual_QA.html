@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fcb07559d2b011b03c03284fb4e30877 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    <div style="position:fixed;bottom:25px;left:25px;z-index:9999;background:white;padding:12px;border:1px solid #aaa;font:13px Arial;max-width:310px"><b>iCare corridor OSM — REVIEW ONLY</b><br><span style="color:#c77700">■</span> Mixed-network fallback<br><span style="color:#b21f36">■</span> Intersection unconfirmed<br><span style="color:#2571c6">■</span> Provisional named-road<br>Verify route and crossings visually. Road shape is not traffic volume.</div>
+    
+            <div class="folium-map" id="map_fcb07559d2b011b03c03284fb4e30877" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fcb07559d2b011b03c03284fb4e30877 = L.map(
+                "map_fcb07559d2b011b03c03284fb4e30877",
+                {
+                    center: [10.786, 106.69],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_fcb07559d2b011b03c03284fb4e30877);
+
+            
+
+        
+    
+            var tile_layer_4923c7c0d1cc5b5b094e91c923f5824f = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Tiles \u00a9 Esri and contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4923c7c0d1cc5b5b094e91c923f5824f.addTo(map_fcb07559d2b011b03c03284fb4e30877);
+        
+    
+            var feature_group_dbd18618197d3b558084afb7f0545f3e = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_c5b0d05349ba8feeb82b9fc546838e54 = L.polyline(
+                [[10.7405542, 106.7009056], [10.7404466, 106.7008867], [10.740429, 106.7009903], [10.7404101, 106.7011068], [10.7404059, 106.7011356], [10.740399, 106.7011755], [10.7401413, 106.7026024], [10.7401285, 106.7026731], [10.7401216, 106.7027165], [10.7401009, 106.7028127], [10.7400687, 106.7029763], [10.7399699, 106.703478], [10.73995, 106.7035736], [10.7399337, 106.7036715], [10.7399284, 106.7037014], [10.7398944, 106.7038922], [10.7398591, 106.7040988], [10.7397907, 106.7045394], [10.739685, 106.7053415], [10.7394808, 106.7067323], [10.7394635, 106.7068498], [10.7394388, 106.7070078], [10.7392893, 106.7079638], [10.7392302, 106.7083639], [10.7392126, 106.7084855], [10.739194, 106.7086039], [10.7390275, 106.7096611], [10.7390159, 106.7097348], [10.739002, 106.7098274], [10.738975, 106.7100066], [10.7387929, 106.7111533], [10.7387844, 106.7112142], [10.7387688, 106.7113259], [10.7386703, 106.7120731], [10.7386005, 106.7127289], [10.7385901, 106.712826], [10.7385842, 106.7129285], [10.7385441, 106.7136211], [10.7385403, 106.7136954], [10.7385338, 106.7138074], [10.7384952, 106.7145235], [10.7384865, 106.7146845], [10.7384361, 106.7156192], [10.7384317, 106.7157044], [10.7384256, 106.7158245], [10.7384178, 106.7159173], [10.7384128, 106.7160133], [10.7383899, 106.7163356], [10.7383606, 106.7167069], [10.7383313, 106.7172585], [10.7382677, 106.718052], [10.7382622, 106.7181611], [10.7382518, 106.718268], [10.7382479, 106.7183651], [10.7382407, 106.7184815], [10.7382297, 106.718648], [10.7382179, 106.7188494], [10.7381821, 106.719558], [10.738149, 106.720127], [10.7381261, 106.7205718], [10.7380838, 106.7212908], [10.7380812, 106.7213579], [10.7380777, 106.7214504], [10.7380761, 106.7215328], [10.7380741, 106.7216079], [10.7380704, 106.7217756], [10.7380658, 106.7218914], [10.7380596, 106.7220304], [10.7380192, 106.7228189], [10.7379951, 106.7230928], [10.7379567, 106.7235441], [10.7378983, 106.7242567], [10.7378584, 106.7243513], [10.7378495, 106.724516], [10.7378351, 106.7248246], [10.7378693, 106.7248767], [10.7378544, 106.7252422], [10.7378038, 106.7261138], [10.7377868, 106.7264291], [10.7377325, 106.7275128], [10.7377066, 106.7279719], [10.7376569, 106.7289501], [10.7376321, 106.7295984], [10.7376124, 106.730113], [10.7376157, 106.7302653], [10.7376578, 106.730382]],
+                {"bubblingMouseEvents": true, "color": "#c77700", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c77700", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(feature_group_dbd18618197d3b558084afb7f0545f3e);
+        
+    
+        var popup_84c1cc66613ae4b3493ae97fb061adc5 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_9086fb285e63146a949c555bbf95dfc6 = $(`<div id="html_9086fb285e63146a949c555bbf95dfc6" style="width: 100.0%; height: 100.0%;"><b>Q7-01 | Nguyễn Thị Thập</b><br>Status: MIXED_NETWORK_NEEDS_VISUAL_QA<br>OSM length: 3.257 km<br>QA: fallback length=3.257km, unmatched=114m (3.5%), snaps=13/3m, alternate names=[&#x27;Cầu Đa Khoa&#x27;, &#x27;Nguyễn Hữu Thọ&#x27;]</div>`)[0];
+                popup_84c1cc66613ae4b3493ae97fb061adc5.setContent(html_9086fb285e63146a949c555bbf95dfc6);
+            
+        
+
+        poly_line_c5b0d05349ba8feeb82b9fc546838e54.bindPopup(popup_84c1cc66613ae4b3493ae97fb061adc5)
+        ;
+
+        
+    
+    
+            poly_line_c5b0d05349ba8feeb82b9fc546838e54.bindTooltip(
+                `<div>
+                     Q7-01 Nguyễn Thị Thập
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_01cefa793e75c8975c98452d21fadf2e = L.circleMarker(
+                [10.74058098365144, 106.70079397606256],
+                {"bubblingMouseEvents": true, "color": "#c77700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c77700", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbd18618197d3b558084afb7f0545f3e);
+        
+    
+        var popup_54012cfd6ab2f52eb2407b2b70f85695 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7940769ca8f4aeb3e948158b3c26b42f = $(`<div id="html_7940769ca8f4aeb3e948158b3c26b42f" style="width: 100.0%; height: 100.0%;">Q7-01 Nguyễn Thị Thập START</div>`)[0];
+                popup_54012cfd6ab2f52eb2407b2b70f85695.setContent(html_7940769ca8f4aeb3e948158b3c26b42f);
+            
+        
+
+        circle_marker_01cefa793e75c8975c98452d21fadf2e.bindPopup(popup_54012cfd6ab2f52eb2407b2b70f85695)
+        ;
+
+        
+    
+    
+            circle_marker_01cefa793e75c8975c98452d21fadf2e.bindTooltip(
+                `<div>
+                     Q7-01 START
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_463e5f87f99602f2b7cb8218101039fa = L.circleMarker(
+                [10.737683472120333, 106.7303957220888],
+                {"bubblingMouseEvents": true, "color": "#c77700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c77700", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbd18618197d3b558084afb7f0545f3e);
+        
+    
+        var popup_6deaa804c56166891bb9de54e9f2ee02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b33d7d29e44fb2e57fe65f1a5dd07e29 = $(`<div id="html_b33d7d29e44fb2e57fe65f1a5dd07e29" style="width: 100.0%; height: 100.0%;">Q7-01 Nguyễn Thị Thập END</div>`)[0];
+                popup_6deaa804c56166891bb9de54e9f2ee02.setContent(html_b33d7d29e44fb2e57fe65f1a5dd07e29);
+            
+        
+
+        circle_marker_463e5f87f99602f2b7cb8218101039fa.bindPopup(popup_6deaa804c56166891bb9de54e9f2ee02)
+        ;
+
+        
+    
+    
+            circle_marker_463e5f87f99602f2b7cb8218101039fa.bindTooltip(
+                `<div>
+                     Q7-01 END
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_0f7fed7897aa4c78c0d5c4fb19b1eb4d = L.polyline(
+                [[10.7405542, 106.7009056], [10.7404466, 106.7008867], [10.7403438, 106.7008654], [10.7401898, 106.7008393], [10.7399159, 106.7007928], [10.7393996, 106.7007052], [10.7391877, 106.7006692], [10.7390685, 106.700649], [10.7390259, 106.7006418], [10.7385215, 106.7005573], [10.7379383, 106.7004607], [10.7372587, 106.7003534], [10.7356106, 106.7000798], [10.7350861, 106.6999936], [10.7343389, 106.6998851], [10.7340197, 106.6998533], [10.7335978, 106.6998448], [10.7334793, 106.6998478], [10.7334109, 106.6998496], [10.7332995, 106.6998525], [10.7332095, 106.6998538], [10.7331375, 106.6998578], [10.7331211, 106.6998587], [10.7331106, 106.6998591], [10.7330687, 106.6998625], [10.7330514, 106.6998638], [10.7324674, 106.6999385], [10.7318476, 106.7000198], [10.7315776, 106.7000541], [10.7313932, 106.7000788], [10.7302242, 106.7002354], [10.7291056, 106.7003812], [10.7290064, 106.7003941], [10.7289062, 106.7003971], [10.7282671, 106.7004166]],
+                {"bubblingMouseEvents": true, "color": "#c77700", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c77700", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(feature_group_dbd18618197d3b558084afb7f0545f3e);
+        
+    
+        var popup_89405738a987e2aed337519a1edf1a5d = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_b190fa1b9823ae49b5b456509b63aea9 = $(`<div id="html_b190fa1b9823ae49b5b456509b63aea9" style="width: 100.0%; height: 100.0%;"><b>Q7-02 | Nguyễn Hữu Thọ</b><br>Status: MIXED_NETWORK_NEEDS_VISUAL_QA<br>OSM length: 1.379 km<br>QA: fallback length=1.379km, unmatched=142m (10.3%), snaps=13/14m, alternate names=[&#x27;Cầu Rạch Bàng 2&#x27;]</div>`)[0];
+                popup_89405738a987e2aed337519a1edf1a5d.setContent(html_b190fa1b9823ae49b5b456509b63aea9);
+            
+        
+
+        poly_line_0f7fed7897aa4c78c0d5c4fb19b1eb4d.bindPopup(popup_89405738a987e2aed337519a1edf1a5d)
+        ;
+
+        
+    
+    
+            poly_line_0f7fed7897aa4c78c0d5c4fb19b1eb4d.bindTooltip(
+                `<div>
+                     Q7-02 Nguyễn Hữu Thọ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_278542f4d25019dd8c81861dd3bdcc21 = L.circleMarker(
+                [10.74058098365144, 106.70079397606256],
+                {"bubblingMouseEvents": true, "color": "#c77700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c77700", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbd18618197d3b558084afb7f0545f3e);
+        
+    
+        var popup_102128d810de48b1b3433734a9e4b930 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6de31e1d3ab8d774c129f536d9af787 = $(`<div id="html_a6de31e1d3ab8d774c129f536d9af787" style="width: 100.0%; height: 100.0%;">Q7-02 Nguyễn Hữu Thọ START</div>`)[0];
+                popup_102128d810de48b1b3433734a9e4b930.setContent(html_a6de31e1d3ab8d774c129f536d9af787);
+            
+        
+
+        circle_marker_278542f4d25019dd8c81861dd3bdcc21.bindPopup(popup_102128d810de48b1b3433734a9e4b930)
+        ;
+
+        
+    
+    
+            circle_marker_278542f4d25019dd8c81861dd3bdcc21.bindTooltip(
+                `<div>
+                     Q7-02 START
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cbae4953533a8500f0928dd1b760c8e6 = L.circleMarker(
+                [10.728378614177162, 106.70047774907566],
+                {"bubblingMouseEvents": true, "color": "#c77700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c77700", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbd18618197d3b558084afb7f0545f3e);
+        
+    
+        var popup_a93d7d9ed68b0ae466bb4df813872848 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f482488fb6bcc7c644e7a15ae98cdf81 = $(`<div id="html_f482488fb6bcc7c644e7a15ae98cdf81" style="width: 100.0%; height: 100.0%;">Q7-02 Nguyễn Hữu Thọ END</div>`)[0];
+                popup_a93d7d9ed68b0ae466bb4df813872848.setContent(html_f482488fb6bcc7c644e7a15ae98cdf81);
+            
+        
+
+        circle_marker_cbae4953533a8500f0928dd1b760c8e6.bindPopup(popup_a93d7d9ed68b0ae466bb4df813872848)
+        ;
+
+        
+    
+    
+            circle_marker_cbae4953533a8500f0928dd1b760c8e6.bindTooltip(
+                `<div>
+                     Q7-02 END
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9935b628be6b25d23b18464b72efb0cc = L.polyline(
+                [[10.7282671, 106.7004166], [10.7282298, 106.7004177], [10.7282306, 106.7005059], [10.7282313, 106.7005777], [10.7282564, 106.7022631], [10.7282728, 106.7032959], [10.7283082, 106.70504], [10.7283472, 106.7066672], [10.7283486, 106.7067289], [10.7283498, 106.7067905], [10.7283518, 106.7068572], [10.7283531, 106.7069021], [10.728396, 106.7083753], [10.7283968, 106.7084832], [10.7283985, 106.7086076], [10.7284013, 106.7087334], [10.7284026, 106.7087849], [10.7284862, 106.7121048], [10.7284884, 106.712195], [10.7284919, 106.7122865], [10.728612, 106.7122901], [10.7286129, 106.7123628], [10.7286135, 106.7123968], [10.7286646, 106.715141], [10.7286895, 106.7154089], [10.728706, 106.7155441], [10.7287259, 106.715683], [10.728764, 106.7158774], [10.7288354, 106.7161837], [10.7288812, 106.7163738], [10.72891, 106.7164801], [10.7289722, 106.7166988], [10.7290082, 106.7168089], [10.7290335, 106.7168768], [10.7290659, 106.7169621], [10.7293567, 106.7176402], [10.7295267, 106.7180137], [10.7296742, 106.7182954], [10.7297198, 106.7183825], [10.729747, 106.7184344], [10.7301429, 106.7181939], [10.730253, 106.7181271], [10.7302854, 106.718179], [10.730345, 106.7182731], [10.7304577, 106.7184552], [10.7306421, 106.7187009], [10.7308254, 106.7189348], [10.7310525, 106.7191919], [10.7311219, 106.7192675], [10.7311922, 106.719216], [10.7312628, 106.7192848], [10.7316687, 106.7196858], [10.7317288, 106.7197426], [10.7317679, 106.7197796], [10.7318078, 106.7198145], [10.731944, 106.7199389], [10.7320047, 106.7198911], [10.7320205, 106.7198779], [10.732043, 106.7198594], [10.7320499, 106.7198538], [10.7320903, 106.7198014]],
+                {"bubblingMouseEvents": true, "color": "#c77700", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c77700", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(feature_group_dbd18618197d3b558084afb7f0545f3e);
+        
+    
+        var popup_3b94725ac3bc375e2283f4e5c51d87ea = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_a71cdc7614e18978888076ff869bd1d9 = $(`<div id="html_a71cdc7614e18978888076ff869bd1d9" style="width: 100.0%; height: 100.0%;"><b>Q7-03 | Nguyễn Văn Linh</b><br>Status: MIXED_NETWORK_NEEDS_VISUAL_QA<br>OSM length: 2.379 km<br>QA: fallback length=2.379km, unmatched=238m (10.0%), snaps=14/5m, alternate names=[&#x27;&#x27;, &#x27;Cầu Thầy Tiêu&#x27;, &#x27;Nguyễn Cao&#x27;, &#x27;Nguyễn Hữu Thọ&#x27;, &#x27;Nguyễn Lương Bằng&#x27;]</div>`)[0];
+                popup_3b94725ac3bc375e2283f4e5c51d87ea.setContent(html_a71cdc7614e18978888076ff869bd1d9);
+            
+        
+
+        poly_line_9935b628be6b25d23b18464b72efb0cc.bindPopup(popup_3b94725ac3bc375e2283f4e5c51d87ea)
+        ;
+
+        
+    
+    
+            poly_line_9935b628be6b25d23b18464b72efb0cc.bindTooltip(
+                `<div>
+                     Q7-03 Nguyễn Văn Linh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_193810092792dab148eccf1b635371e6 = L.circleMarker(
+                [10.728378614177162, 106.70047774907566],
+                {"bubblingMouseEvents": true, "color": "#c77700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c77700", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbd18618197d3b558084afb7f0545f3e);
+        
+    
+        var popup_525aa70d416cceeb6c7fe85a8906a8aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dacf3698f539e42fde20de94146095a3 = $(`<div id="html_dacf3698f539e42fde20de94146095a3" style="width: 100.0%; height: 100.0%;">Q7-03 Nguyễn Văn Linh START</div>`)[0];
+                popup_525aa70d416cceeb6c7fe85a8906a8aa.setContent(html_dacf3698f539e42fde20de94146095a3);
+            
+        
+
+        circle_marker_193810092792dab148eccf1b635371e6.bindPopup(popup_525aa70d416cceeb6c7fe85a8906a8aa)
+        ;
+
+        
+    
+    
+            circle_marker_193810092792dab148eccf1b635371e6.bindTooltip(
+                `<div>
+                     Q7-03 START
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8f03c4c1e646eb5e2613da1e316deb07 = L.circleMarker(
+                [10.732047517727226, 106.71978970674672],
+                {"bubblingMouseEvents": true, "color": "#c77700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c77700", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbd18618197d3b558084afb7f0545f3e);
+        
+    
+        var popup_f566d197d969c34e920ec14b55186225 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61ba0bb46dfa5d713a79a13667a37a20 = $(`<div id="html_61ba0bb46dfa5d713a79a13667a37a20" style="width: 100.0%; height: 100.0%;">Q7-03 Nguyễn Văn Linh END</div>`)[0];
+                popup_f566d197d969c34e920ec14b55186225.setContent(html_61ba0bb46dfa5d713a79a13667a37a20);
+            
+        
+
+        circle_marker_8f03c4c1e646eb5e2613da1e316deb07.bindPopup(popup_f566d197d969c34e920ec14b55186225)
+        ;
+
+        
+    
+    
+            circle_marker_8f03c4c1e646eb5e2613da1e316deb07.bindTooltip(
+                `<div>
+                     Q7-03 END
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_444424a7360200b140fb112b873fbc3a = L.polyline(
+                [[10.7376578, 106.730382], [10.7377252, 106.7303696], [10.7379122, 106.7303351], [10.7384295, 106.7302558], [10.7387654, 106.7302042], [10.7392763, 106.7301259], [10.7395701, 106.7300808], [10.7396417, 106.7300699], [10.7398687, 106.730035], [10.7399623, 106.7300207], [10.740697, 106.729908], [10.7414101, 106.7297986], [10.7417046, 106.7297535], [10.7420905, 106.7296943], [10.7426793, 106.729604], [10.7432841, 106.7295112], [10.7433683, 106.7294983], [10.7437296, 106.7294429], [10.7438117, 106.7294303], [10.7448004, 106.7292787], [10.745138, 106.7292269], [10.7451858, 106.7292196], [10.7452425, 106.7292109], [10.7453266, 106.7292002], [10.7456631, 106.7291573], [10.7462653, 106.7290875], [10.7466669, 106.7290212], [10.746937, 106.7289789], [10.747082, 106.7289562], [10.747543, 106.7288882], [10.7483128, 106.7287984], [10.7487198, 106.7287673], [10.7497484, 106.7286839], [10.7499708, 106.7286678], [10.7500766, 106.7286577], [10.7501456, 106.7286522], [10.7504339, 106.7286293], [10.7505036, 106.7286208], [10.7507565, 106.7286023], [10.7512834, 106.7285517], [10.7516022, 106.7285297], [10.7518829, 106.7285129], [10.7522653, 106.728499], [10.7525768, 106.7284654], [10.7526474, 106.7284578], [10.7527903, 106.7284486], [10.7528556, 106.7284459], [10.7531754, 106.7284327], [10.7532776, 106.7284222], [10.7535549, 106.7283856], [10.7538027, 106.7283257], [10.7539608, 106.7282506], [10.7540824, 106.7281678], [10.754197, 106.7280509], [10.7543635, 106.7278379], [10.7544235, 106.7277149], [10.7544439, 106.727673], [10.7544935, 106.7275103], [10.7546233, 106.7270791], [10.7547701, 106.7264455], [10.7548603, 106.7260406], [10.7549262, 106.7257416], [10.7549827, 106.7254672], [10.7550406, 106.7251922], [10.7550635, 106.7250837], [10.7550836, 106.7249991], [10.7551104, 106.724886], [10.7552092, 106.7244312], [10.7552209, 106.7243772], [10.7552782, 106.7240567], [10.7553338, 106.7238158], [10.7554189, 106.723418], [10.7554836, 106.7232775], [10.7555567, 106.7229447], [10.7558078, 106.7218001], [10.7559136, 106.721406], [10.7559048, 106.7213381]],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#666666", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(feature_group_dbd18618197d3b558084afb7f0545f3e);
+        
+    
+        var popup_616501447a4309d6adeba5fb5fffbe7a = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_1746e8c2d1a010f248cf75b5cd378aac = $(`<div id="html_1746e8c2d1a010f248cf75b5cd378aac" style="width: 100.0%; height: 100.0%;"><b>Q7-04 | Huỳnh Tấn Phát</b><br>Status: PROVISIONAL_NEEDS_VISUAL_QA<br>OSM length: 2.626 km<br>QA: No explicit QA flag (still requires map review)</div>`)[0];
+                popup_616501447a4309d6adeba5fb5fffbe7a.setContent(html_1746e8c2d1a010f248cf75b5cd378aac);
+            
+        
+
+        poly_line_444424a7360200b140fb112b873fbc3a.bindPopup(popup_616501447a4309d6adeba5fb5fffbe7a)
+        ;
+
+        
+    
+    
+            poly_line_444424a7360200b140fb112b873fbc3a.bindTooltip(
+                `<div>
+                     Q7-04 Huỳnh Tấn Phát
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_72787eab3cfb93e65a1dd95e82f1b5bb = L.circleMarker(
+                [10.737683472120333, 106.7303957220888],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#666666", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbd18618197d3b558084afb7f0545f3e);
+        
+    
+        var popup_16ed2fdad5d0cf8b150e3e4904f258d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bb8ee5808d62de5f9e531f644ea9577 = $(`<div id="html_8bb8ee5808d62de5f9e531f644ea9577" style="width: 100.0%; height: 100.0%;">Q7-04 Huỳnh Tấn Phát START</div>`)[0];
+                popup_16ed2fdad5d0cf8b150e3e4904f258d6.setContent(html_8bb8ee5808d62de5f9e531f644ea9577);
+            
+        
+
+        circle_marker_72787eab3cfb93e65a1dd95e82f1b5bb.bindPopup(popup_16ed2fdad5d0cf8b150e3e4904f258d6)
+        ;
+
+        
+    
+    
+            circle_marker_72787eab3cfb93e65a1dd95e82f1b5bb.bindTooltip(
+                `<div>
+                     Q7-04 START
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ee7c652bd7b0308c8c90977538ff21e4 = L.circleMarker(
+                [10.75612767694419, 106.72127490674671],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#666666", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbd18618197d3b558084afb7f0545f3e);
+        
+    
+        var popup_eae18dcb2b657867491a88011139484f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4421771c326bdf3db77507365e9200f = $(`<div id="html_e4421771c326bdf3db77507365e9200f" style="width: 100.0%; height: 100.0%;">Q7-04 Huỳnh Tấn Phát END</div>`)[0];
+                popup_eae18dcb2b657867491a88011139484f.setContent(html_e4421771c326bdf3db77507365e9200f);
+            
+        
+
+        circle_marker_ee7c652bd7b0308c8c90977538ff21e4.bindPopup(popup_eae18dcb2b657867491a88011139484f)
+        ;
+
+        
+    
+    
+            circle_marker_ee7c652bd7b0308c8c90977538ff21e4.bindTooltip(
+                `<div>
+                     Q7-04 END
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_dbd18618197d3b558084afb7f0545f3e.addTo(map_fcb07559d2b011b03c03284fb4e30877);
+        
+    
+            var feature_group_dbe12b75c28173612ee0bb2239b30628 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var poly_line_d89ad0d7dbe0886b70d8cbb26c83c11e = L.polyline(
+                [[10.826372, 106.6801806], [10.8264591, 106.6800428], [10.8265517, 106.6798506], [10.8266254, 106.6796689], [10.8266965, 106.6794618], [10.8267707, 106.6792457], [10.8267926, 106.6791854], [10.8268525, 106.6789992], [10.8271875, 106.6779806], [10.827361, 106.6774677], [10.8273783, 106.6774203], [10.8273866, 106.6773948], [10.827587, 106.6767829], [10.8277505, 106.6762997], [10.8279013, 106.6758597], [10.8281642, 106.6750889], [10.8282358, 106.6748788], [10.8283625, 106.674532], [10.8283912, 106.6744514], [10.828776, 106.6733686], [10.8288169, 106.6732496], [10.8288448, 106.6731715], [10.8289038, 106.6730065], [10.8289574, 106.6728657], [10.8291313, 106.6724089], [10.8291805, 106.6722944], [10.8292954, 106.6720271], [10.8293368, 106.6719438], [10.8293605, 106.6718962], [10.8296238, 106.6713881], [10.8297189, 106.6712045], [10.8301334, 106.6704164], [10.8301591, 106.6703675], [10.8303074, 106.6700849], [10.8303625, 106.6700008], [10.830403, 106.669939], [10.8304602, 106.6698517], [10.8306051, 106.6696543], [10.8306701, 106.6695742], [10.8307717, 106.6694581], [10.8312476, 106.6688618], [10.8312902, 106.6688174], [10.8316426, 106.6683654], [10.8316919, 106.6683028], [10.8320789, 106.6678118], [10.8322253, 106.6676132], [10.8322753, 106.6675414], [10.8323893, 106.6673965], [10.8324696, 106.6672908], [10.8326737, 106.6670374], [10.8329352, 106.6667013], [10.8330118, 106.6666045], [10.8330646, 106.6665387], [10.8331797, 106.6663826], [10.833247, 106.6663116], [10.8334321, 106.6660795], [10.8334924, 106.6659983], [10.8336588, 106.6657894], [10.8336965, 106.6657418], [10.8338127, 106.6655922], [10.8340958, 106.6652265], [10.8342863, 106.6649804], [10.8343572, 106.6648624], [10.8344692, 106.6646759], [10.8345883, 106.6644653], [10.8346046, 106.664441], [10.8346323, 106.6643796], [10.8346516, 106.6643386]],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#666666", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(feature_group_dbe12b75c28173612ee0bb2239b30628);
+        
+    
+        var popup_e34ff37ccb3c1547edc470b77ab09d3f = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_291dbada6f4506fc757a74400bacef62 = $(`<div id="html_291dbada6f4506fc757a74400bacef62" style="width: 100.0%; height: 100.0%;"><b>GV-05 | Quang Trung</b><br>Status: PROVISIONAL_NEEDS_VISUAL_QA<br>OSM length: 1.982 km<br>QA: No explicit QA flag (still requires map review)</div>`)[0];
+                popup_e34ff37ccb3c1547edc470b77ab09d3f.setContent(html_291dbada6f4506fc757a74400bacef62);
+            
+        
+
+        poly_line_d89ad0d7dbe0886b70d8cbb26c83c11e.bindPopup(popup_e34ff37ccb3c1547edc470b77ab09d3f)
+        ;
+
+        
+    
+    
+            poly_line_d89ad0d7dbe0886b70d8cbb26c83c11e.bindTooltip(
+                `<div>
+                     GV-05 Quang Trung
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cb3ccd2d4bac393739dc3d13e78ed2ff = L.circleMarker(
+                [10.826609150545185, 106.6802661797598],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#666666", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbe12b75c28173612ee0bb2239b30628);
+        
+    
+        var popup_ad378e2798e255c66e15a421ab8d8e69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88298978d5c85191ddef703d1f18f720 = $(`<div id="html_88298978d5c85191ddef703d1f18f720" style="width: 100.0%; height: 100.0%;">GV-05 Quang Trung START</div>`)[0];
+                popup_ad378e2798e255c66e15a421ab8d8e69.setContent(html_88298978d5c85191ddef703d1f18f720);
+            
+        
+
+        circle_marker_cb3ccd2d4bac393739dc3d13e78ed2ff.bindPopup(popup_ad378e2798e255c66e15a421ab8d8e69)
+        ;
+
+        
+    
+    
+            circle_marker_cb3ccd2d4bac393739dc3d13e78ed2ff.bindTooltip(
+                `<div>
+                     GV-05 START
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_160df79b916bc19e7ec0db4917f7bf98 = L.circleMarker(
+                [10.83477844522744, 106.66438233558222],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#666666", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbe12b75c28173612ee0bb2239b30628);
+        
+    
+        var popup_3482e7e142948de8405f7e0c7273be5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b04bf82e5600eee2b8dcf863f2122d3b = $(`<div id="html_b04bf82e5600eee2b8dcf863f2122d3b" style="width: 100.0%; height: 100.0%;">GV-05 Quang Trung END</div>`)[0];
+                popup_3482e7e142948de8405f7e0c7273be5d.setContent(html_b04bf82e5600eee2b8dcf863f2122d3b);
+            
+        
+
+        circle_marker_160df79b916bc19e7ec0db4917f7bf98.bindPopup(popup_3482e7e142948de8405f7e0c7273be5d)
+        ;
+
+        
+    
+    
+            circle_marker_160df79b916bc19e7ec0db4917f7bf98.bindTooltip(
+                `<div>
+                     GV-05 END
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_8c0e1c492358949bb9285292b6d8c677 = L.polyline(
+                [[10.8309631, 106.6773879], [10.8310408, 106.6771722], [10.8313681, 106.6762635], [10.8313877, 106.6762091], [10.8317146, 106.6753018], [10.8317466, 106.6752128], [10.8318722, 106.674864], [10.8318894, 106.6748165], [10.8319183, 106.6747363], [10.8319787, 106.6745685], [10.8322637, 106.6737772], [10.8322808, 106.6737298], [10.8324237, 106.6733331], [10.8325363, 106.6730206], [10.8326752, 106.672635], [10.8327206, 106.672509], [10.8327367, 106.6724641], [10.8328546, 106.6721368], [10.8328765, 106.6720761], [10.8329257, 106.6719394], [10.8329836, 106.6717786], [10.8334118, 106.6705901], [10.8334711, 106.6704255], [10.8335118, 106.6703133], [10.8335655, 106.6701651], [10.8339539, 106.6690945], [10.8341153, 106.6686494], [10.8342481, 106.6682834], [10.8347665, 106.6668544], [10.8348123, 106.666728], [10.835121, 106.6658771], [10.835137, 106.6658329], [10.8354927, 106.6648523], [10.8354734, 106.66475], [10.8354737, 106.6646513]],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#666666", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(feature_group_dbe12b75c28173612ee0bb2239b30628);
+        
+    
+        var popup_7a96cf49d3420107744277a753ebc2d8 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_28055485cd507d6c0a9a635bea0532f4 = $(`<div id="html_28055485cd507d6c0a9a635bea0532f4" style="width: 100.0%; height: 100.0%;"><b>GV-06 | Phan Văn Trị</b><br>Status: PROVISIONAL_NEEDS_VISUAL_QA<br>OSM length: 1.481 km<br>QA: snap_start=17m, snap_end=21m; detour=1.00</div>`)[0];
+                popup_7a96cf49d3420107744277a753ebc2d8.setContent(html_28055485cd507d6c0a9a635bea0532f4);
+            
+        
+
+        poly_line_8c0e1c492358949bb9285292b6d8c677.bindPopup(popup_7a96cf49d3420107744277a753ebc2d8)
+        ;
+
+        
+    
+    
+            poly_line_8c0e1c492358949bb9285292b6d8c677.bindTooltip(
+                `<div>
+                     GV-06 Phan Văn Trị
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c44bcaf0a380a701e80e61cfe8df31a5 = L.circleMarker(
+                [10.831111021347724, 106.67741784907568],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#666666", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbe12b75c28173612ee0bb2239b30628);
+        
+    
+        var popup_51814dcc6503fa204eef827710ac137a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c21452716a9c30553f24b6e84047d60 = $(`<div id="html_2c21452716a9c30553f24b6e84047d60" style="width: 100.0%; height: 100.0%;">GV-06 Phan Văn Trị START</div>`)[0];
+                popup_51814dcc6503fa204eef827710ac137a.setContent(html_2c21452716a9c30553f24b6e84047d60);
+            
+        
+
+        circle_marker_c44bcaf0a380a701e80e61cfe8df31a5.bindPopup(popup_51814dcc6503fa204eef827710ac137a)
+        ;
+
+        
+    
+    
+            circle_marker_c44bcaf0a380a701e80e61cfe8df31a5.bindTooltip(
+                `<div>
+                     GV-06 START
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6f2feba1a0681d51c9920966de6f8692 = L.circleMarker(
+                [10.835661782204594, 106.66469586441774],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#666666", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbe12b75c28173612ee0bb2239b30628);
+        
+    
+        var popup_fadf540b95d0f8a2a49ea42fa91ea92c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9bdd7713f6febae87829ad950f217a5 = $(`<div id="html_c9bdd7713f6febae87829ad950f217a5" style="width: 100.0%; height: 100.0%;">GV-06 Phan Văn Trị END</div>`)[0];
+                popup_fadf540b95d0f8a2a49ea42fa91ea92c.setContent(html_c9bdd7713f6febae87829ad950f217a5);
+            
+        
+
+        circle_marker_6f2feba1a0681d51c9920966de6f8692.bindPopup(popup_fadf540b95d0f8a2a49ea42fa91ea92c)
+        ;
+
+        
+    
+    
+            circle_marker_6f2feba1a0681d51c9920966de6f8692.bindTooltip(
+                `<div>
+                     GV-06 END
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1513289032f06ab7e9cbd3c5800c4e37 = L.polyline(
+                [[10.8387227, 106.6652632], [10.8387215, 106.6653818], [10.8387194, 106.6655772], [10.838717, 106.6658031], [10.8387156, 106.6659382], [10.8387151, 106.6659914], [10.8387126, 106.6662259], [10.8387039, 106.6670543], [10.8387033, 106.6671177], [10.8386981, 106.6676068], [10.8386946, 106.6679419], [10.8386939, 106.6680133], [10.8386799, 106.6693403], [10.8386795, 106.66938], [10.8386766, 106.6696637], [10.8386674, 106.6705378], [10.8386652, 106.6707452], [10.8386611, 106.6711383], [10.8386552, 106.6717018], [10.8386542, 106.6717944], [10.8386524, 106.6719671], [10.8386516, 106.6720442], [10.8386403, 106.6731222], [10.838639, 106.6732442], [10.8386376, 106.673378], [10.8386369, 106.6734443], [10.8386329, 106.6738221], [10.8386184, 106.6752121], [10.838616, 106.6754358], [10.8386152, 106.6755099], [10.8386142, 106.6756049]],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#666666", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(feature_group_dbe12b75c28173612ee0bb2239b30628);
+        
+    
+        var popup_577bac9fb77ae45d789c65466c3faed0 = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_dd18a99b602e6f4e76b1b9e9061fc665 = $(`<div id="html_dd18a99b602e6f4e76b1b9e9061fc665" style="width: 100.0%; height: 100.0%;"><b>GV-07 | Nguyễn Văn Lượng</b><br>Status: PROVISIONAL_NEEDS_VISUAL_QA<br>OSM length: 1.129 km<br>QA: snap_start=18m, snap_end=16m; detour=1.01</div>`)[0];
+                popup_577bac9fb77ae45d789c65466c3faed0.setContent(html_dd18a99b602e6f4e76b1b9e9061fc665);
+            
+        
+
+        poly_line_1513289032f06ab7e9cbd3c5800c4e37.bindPopup(popup_577bac9fb77ae45d789c65466c3faed0)
+        ;
+
+        
+    
+    
+            poly_line_1513289032f06ab7e9cbd3c5800c4e37.bindTooltip(
+                `<div>
+                     GV-07 Nguyễn Văn Lượng
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_358b6ab5426edab1951e9538b414cd4b = L.circleMarker(
+                [10.838880742555602, 106.66529397975984],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#666666", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbe12b75c28173612ee0bb2239b30628);
+        
+    
+        var popup_e2e90cc30d5e19e1e11a50a8d8bbcda4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92004a8960aac9ee5f80e56faaca2437 = $(`<div id="html_92004a8960aac9ee5f80e56faaca2437" style="width: 100.0%; height: 100.0%;">GV-07 Nguyễn Văn Lượng START</div>`)[0];
+                popup_e2e90cc30d5e19e1e11a50a8d8bbcda4.setContent(html_92004a8960aac9ee5f80e56faaca2437);
+            
+        
+
+        circle_marker_358b6ab5426edab1951e9538b414cd4b.bindPopup(popup_e2e90cc30d5e19e1e11a50a8d8bbcda4)
+        ;
+
+        
+    
+    
+            circle_marker_358b6ab5426edab1951e9538b414cd4b.bindTooltip(
+                `<div>
+                     GV-07 START
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1eea673adfa17043b7b0bd9da99e09be = L.circleMarker(
+                [10.838752880082446, 106.67556433558224],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#666666", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbe12b75c28173612ee0bb2239b30628);
+        
+    
+        var popup_ca31f5de5845d25bad9e256cff01229e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6e0fc2e2356bb3f4cda1779849aed70 = $(`<div id="html_d6e0fc2e2356bb3f4cda1779849aed70" style="width: 100.0%; height: 100.0%;">GV-07 Nguyễn Văn Lượng END</div>`)[0];
+                popup_ca31f5de5845d25bad9e256cff01229e.setContent(html_d6e0fc2e2356bb3f4cda1779849aed70);
+            
+        
+
+        circle_marker_1eea673adfa17043b7b0bd9da99e09be.bindPopup(popup_ca31f5de5845d25bad9e256cff01229e)
+        ;
+
+        
+    
+    
+            circle_marker_1eea673adfa17043b7b0bd9da99e09be.bindTooltip(
+                `<div>
+                     GV-07 END
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_34b072031f8b7a4a71a279fdd63a5d12 = L.polyline(
+                [[10.8311606, 106.6773494], [10.8311792, 106.6773368], [10.8319348, 106.6768176], [10.8320537, 106.6767642], [10.8329615, 106.6763824], [10.8333127, 106.6762376], [10.8334801, 106.67617], [10.8343851, 106.6758135], [10.8344356, 106.6757962], [10.8346075, 106.6757346], [10.8347909, 106.6756692], [10.8348535, 106.6756469], [10.8350449, 106.6755845], [10.8351829, 106.6755517], [10.8353559, 106.6755172], [10.835437, 106.6755011], [10.8354799, 106.6754949], [10.8355189, 106.6754892], [10.835542, 106.6754874], [10.8356395, 106.6754797], [10.8356708, 106.6754796], [10.8366564, 106.6754862], [10.8376388, 106.6754958], [10.8379742, 106.6754941], [10.8381699, 106.6754976], [10.8384535, 106.6755035], [10.8385359, 106.6755052], [10.8386152, 106.6755099], [10.8386329, 106.6755178], [10.8387564, 106.6755435], [10.8389376, 106.6756039], [10.8390925, 106.6756482], [10.8391269, 106.6756581], [10.8392048, 106.6756804], [10.8397195, 106.6758276], [10.8403624, 106.6760186], [10.8406144, 106.6760954], [10.8419218, 106.6765336], [10.8419722, 106.6765528], [10.8420177, 106.6765694], [10.8421881, 106.6766315]],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#666666", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(feature_group_dbe12b75c28173612ee0bb2239b30628);
+        
+    
+        var popup_c40e8e11e4809893f28b2a6a2bb78eab = L.popup({
+  "maxWidth": 360,
+});
+
+        
+            
+                var html_fb21e9af3e6827db62385370769ef4c4 = $(`<div id="html_fb21e9af3e6827db62385370769ef4c4" style="width: 100.0%; height: 100.0%;"><b>GV-08 | Nguyễn Oanh</b><br>Status: PROVISIONAL_NEEDS_VISUAL_QA<br>OSM length: 1.289 km<br>QA: No explicit QA flag (still requires map review)</div>`)[0];
+                popup_c40e8e11e4809893f28b2a6a2bb78eab.setContent(html_fb21e9af3e6827db62385370769ef4c4);
+            
+        
+
+        poly_line_34b072031f8b7a4a71a279fdd63a5d12.bindPopup(popup_c40e8e11e4809893f28b2a6a2bb78eab)
+        ;
+
+        
+    
+    
+            poly_line_34b072031f8b7a4a71a279fdd63a5d12.bindTooltip(
+                `<div>
+                     GV-08 Nguyễn Oanh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3607da1a102593105567bf512a6d278e = L.circleMarker(
+                [10.831111021347724, 106.67741784907568],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#666666", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbe12b75c28173612ee0bb2239b30628);
+        
+    
+        var popup_83796cd34a468209561d3cadc46fd7b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7592b047b830b33cee9151856e3d0f18 = $(`<div id="html_7592b047b830b33cee9151856e3d0f18" style="width: 100.0%; height: 100.0%;">GV-08 Nguyễn Oanh START</div>`)[0];
+                popup_83796cd34a468209561d3cadc46fd7b2.setContent(html_7592b047b830b33cee9151856e3d0f18);
+            
+        
+
+        circle_marker_3607da1a102593105567bf512a6d278e.bindPopup(popup_83796cd34a468209561d3cadc46fd7b2)
+        ;
+
+        
+    
+    
+            circle_marker_3607da1a102593105567bf512a6d278e.bindTooltip(
+                `<div>
+                     GV-08 START
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fabd4d2f40ba2894501eaf3a853f13fb = L.circleMarker(
+                [10.8422186269921, 106.67646990489808],
+                {"bubblingMouseEvents": true, "color": "#666666", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#666666", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dbe12b75c28173612ee0bb2239b30628);
+        
+    
+        var popup_8abb3b4de1891ff79a0f6f9f25db4329 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_004e0bb8bb2f7ed672ca0b9a309671c4 = $(`<div id="html_004e0bb8bb2f7ed672ca0b9a309671c4" style="width: 100.0%; height: 100.0%;">GV-08 Nguyễn Oanh END</div>`)[0];
+                popup_8abb3b4de1891ff79a0f6f9f25db4329.setContent(html_004e0bb8bb2f7ed672ca0b9a309671c4);
+            
+        
+
+        circle_marker_fabd4d2f40ba2894501eaf3a853f13fb.bindPopup(popup_8abb3b4de1891ff79a0f6f9f25db4329)
+        ;
+
+        
+    
+    
+            circle_marker_fabd4d2f40ba2894501eaf3a853f13fb.bindTooltip(
+                `<div>
+                     GV-08 END
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_dbe12b75c28173612ee0bb2239b30628.addTo(map_fcb07559d2b011b03c03284fb4e30877);
+        
+    
+            var layer_control_eb3c73d175fc71fe198a3682e972b695_layers = {
+                base_layers : {
+                    "Esri World Street Map" : tile_layer_4923c7c0d1cc5b5b094e91c923f5824f,
+                },
+                overlays :  {
+                    "Qu\u1eadn 7" : feature_group_dbd18618197d3b558084afb7f0545f3e,
+                    "G\u00f2 V\u1ea5p" : feature_group_dbe12b75c28173612ee0bb2239b30628,
+                },
+            };
+            let layer_control_eb3c73d175fc71fe198a3682e972b695 = L.control.layers(
+                layer_control_eb3c73d175fc71fe198a3682e972b695_layers.base_layers,
+                layer_control_eb3c73d175fc71fe198a3682e972b695_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_fcb07559d2b011b03c03284fb4e30877);
+
+        
+</script>
+</html>

@@ -1,0 +1,12 @@
+{
+  "v7_rows": 274,
+  "v9_raw_rows": 51,
+  "v9_retained_for_review": 21,
+  "v9_excluded_with_reasons": 30,
+  "merged_rows": 295,
+  "corridors_with_candidates": 15,
+  "to_ky_candidates": 21,
+  "endpoint_autoselected": 0,
+  "geographic_caveat": "GPS-based BBOX is not district boundary; review Tô Ký locations against actual road and business anchors before selecting endpoints.",
+  "source_snapshot": "Local Geofabrik Vietnam PBF (V9)"
+}

@@ -1,0 +1,31 @@
+﻿corridor_name,district_old,osmid,latitude,longitude,matched_names,crossing_names,source,method,review_status,endpoint_role,qa_reason
+Tô Ký,Quận 12,2644411365,10.4898771,107.1741152,Tô Ký | Đường Tô Ký,Ngô Gia Tự,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,OUTSIDE_Q12_GPS_BBOX|ALLEY_OR_LANE
+Tô Ký,Quận 12,5461648181,10.4914327,107.174204,Tô Ký | Đường Tô Ký,Châu Văn Biếc,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,OUTSIDE_Q12_GPS_BBOX
+Tô Ký,Quận 12,5461648182,10.4918978,107.174222,Tô Ký | Đường Tô Ký,Bạch Đằng,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,OUTSIDE_Q12_GPS_BBOX
+Tô Ký,Quận 12,2725071566,10.5845417,107.0605271,Tô Ký | Đường Tô Ký,Lý Thường Kiệt,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,OUTSIDE_Q12_GPS_BBOX
+Tô Ký,Quận 12,6984719875,10.5845451,107.0619185,Tô Ký | Đường Tô Ký,Vũ Trọng Phụng,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,OUTSIDE_Q12_GPS_BBOX
+Tô Ký,Quận 12,2321456772,10.8490894,106.6328223,Tô Ký | Đường Tô Ký,Hẻm 165 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,ALLEY_OR_LANE
+Tô Ký,Quận 12,8366025003,10.8491654,106.632716,Tô Ký | Đường Tô Ký,Hẻm 167 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,ALLEY_OR_LANE
+Tô Ký,Quận 12,2210737290,10.8502831,106.6258311,Tô Ký | Đường Tô Ký,Cầu vượt Quang Trung,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,BRIDGE_OR_CONNECTOR
+Tô Ký,Quận 12,3636153301,10.8503233,106.6310688,Tô Ký | Đường Tô Ký,Cầu vượt Quang Trung 2,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,BRIDGE_OR_CONNECTOR
+Tô Ký,Quận 12,8747741227,10.8503905,106.6310978,Tô Ký | Đường Tô Ký,Cầu vượt Quang Trung 1,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,BRIDGE_OR_CONNECTOR
+Tô Ký,Quận 12,3638264157,10.8516716,106.6315208,Tô Ký | Đường Tô Ký,Cầu vượt Quang Trung,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,BRIDGE_OR_CONNECTOR
+Tô Ký,Quận 12,2210755368,10.8522116,106.6265153,Tô Ký | Đường Tô Ký,Cầu vượt Quang Trung 2,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,BRIDGE_OR_CONNECTOR
+Tô Ký,Quận 12,366478779,10.85232,106.626653,Tô Ký | Đường Tô Ký,Cầu vượt Quang Trung 1,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,BRIDGE_OR_CONNECTOR
+Tô Ký,Quận 12,5733411465,10.8527736,106.6262305,Tô Ký | Đường Tô Ký,Hẻm 369 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,ALLEY_OR_LANE
+Tô Ký,Quận 12,2210755369,10.8536211,106.6257115,Tô Ký | Đường Tô Ký,Hẻm 401 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,ALLEY_OR_LANE
+Tô Ký,Quận 12,5764885909,10.8588874,106.6178412,Tô Ký | Đường Tô Ký,Hẻm 364 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,ALLEY_OR_LANE
+Tô Ký,Quận 12,5764885912,10.8603982,106.6175342,Tô Ký | Đường Tô Ký,Hẻm 414 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,ALLEY_OR_LANE
+Tô Ký,Quận 12,366412672,10.8608559,106.6174592,Tô Ký | Đường Tô Ký,Hẻm 432 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,ALLEY_OR_LANE
+Tô Ký,Quận 12,2210755719,10.861788,106.6172752,Tô Ký | Đường Tô Ký,Hẻm 470 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,ALLEY_OR_LANE
+Tô Ký,Quận 12,4178488557,10.8622756,106.617142,Tô Ký | Đường Tô Ký,Hẻm 486 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,ALLEY_OR_LANE
+Tô Ký,Quận 12,5764948657,10.8627552,106.6170057,Tô Ký | Đường Tô Ký,Hẻm 498 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,ALLEY_OR_LANE
+Tô Ký,Quận 12,5764885914,10.8636265,106.6167567,Tô Ký | Đường Tô Ký,Hẻm 550 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,ALLEY_OR_LANE
+Tô Ký,Quận 12,9695735936,10.8822471,106.6080146,Tô Ký | Đường Tô Ký,Tân Xuân 2,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,OUTSIDE_Q12_GPS_BBOX
+Tô Ký,Quận 12,9695733886,10.88248,106.6078982,Tô Ký | Đường Tô Ký,Đường Thới Tam Thôn 18,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,OUTSIDE_Q12_GPS_BBOX
+Tô Ký,Quận 12,9695735928,10.8863228,106.6043146,Tô Ký | Đường Tô Ký,Đường Tô Ký 12,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,OUTSIDE_Q12_GPS_BBOX
+Tô Ký,Quận 12,366403994,10.8871653,106.6035322,Tô Ký | Đường Tô Ký,Đường Phạm Thị Giây,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,OUTSIDE_Q12_GPS_BBOX
+Tô Ký,Quận 12,2414261812,10.8876479,106.6024563,Tô Ký | Đường Tô Ký,Đường Quang Trung,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,OUTSIDE_Q12_GPS_BBOX
+Tô Ký,Quận 12,1480258246,12.1942018,109.1646266,Tô Ký | Đường Tô Ký,Đường tỉnh 657K,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,OUTSIDE_Q12_GPS_BBOX
+Tô Ký,Quận 12,6010322534,14.4275568,109.0087299,Tô Ký | Đường Tô Ký,Tố Hữu,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,OUTSIDE_Q12_GPS_BBOX
+Tô Ký,Quận 12,2054750100,14.4283629,109.0082869,Tô Ký | Đường Tô Ký,Đường Trần Hưng Đạo,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED,OUTSIDE_Q12_GPS_BBOX

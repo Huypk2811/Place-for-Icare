@@ -1,0 +1,13 @@
+﻿point_id,district_old,intersection_label,latitude,longitude,evidence,validation_status
+Q7-01,Quận 7,Nguyễn Thị Thập × Nguyễn Hữu Thọ,10.74058098365144,106.70079397606256,user_supplied_coordinates,USER_COORDINATE_PROVIDED
+Q7-02,Quận 7,Nguyễn Thị Thập × Huỳnh Tấn Phát,10.737683472120333,106.73039572208879,user_supplied_coordinates,USER_COORDINATE_PROVIDED
+Q7-03,Quận 7,Nguyễn Hữu Thọ × Nguyễn Văn Linh,10.728378614177162,106.70047774907566,user_supplied_coordinates,USER_COORDINATE_PROVIDED
+Q7-04,Quận 7,Nguyễn Văn Linh × Nguyễn Lương Bằng,10.732047517727226,106.71978970674671,user_supplied_coordinates,USER_COORDINATE_PROVIDED
+Q7-05,Quận 7,Huỳnh Tấn Phát × Trần Xuân Soạn,10.75612767694419,106.72127490674671,user_supplied_coordinates,USER_COORDINATE_PROVIDED
+GV-01,Gò Vấp,Quang Trung × Nguyễn Oanh,10.826609150545183,106.68026617975981,user_supplied_coordinates,USER_COORDINATE_PROVIDED
+GV-02,Gò Vấp,Quang Trung × Thống Nhất,10.83477844522744,106.66438233558222,user_supplied_coordinates,USER_COORDINATE_PROVIDED
+GV-03,Gò Vấp,Phan Văn Trị × Nguyễn Oanh,10.831111021347724,106.67741784907567,user_supplied_coordinates,USER_COORDINATE_PROVIDED
+GV-04,Gò Vấp,Phan Văn Trị × Thống Nhất,10.835661782204594,106.66469586441774,user_supplied_coordinates + maps_screenshot,UNCONFIRMED_ROAD_GEOMETRY
+GV-05,Gò Vấp,Nguyễn Văn Lượng × Thống Nhất,10.838880742555602,106.66529397975984,user_supplied_coordinates,USER_COORDINATE_PROVIDED
+GV-06,Gò Vấp,Nguyễn Văn Lượng × Nguyễn Oanh,10.838752880082446,106.67556433558224,user_supplied_coordinates,USER_COORDINATE_PROVIDED
+GV-07,Gò Vấp,Nguyễn Oanh × Lê Đức Thọ,10.8422186269921,106.67646990489808,user_supplied_coordinates,USER_COORDINATE_PROVIDED

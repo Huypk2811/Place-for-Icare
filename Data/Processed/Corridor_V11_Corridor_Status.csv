@@ -1,0 +1,16 @@
+﻿district_old,corridor_name,intersection_candidates,named_candidates,review_pairs,status,next_step
+Quận 12,Đỗ Mười,15,15,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary
+Quận 12,Lê Văn Khương,24,24,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary
+Quận 12,Nguyễn Ảnh Thủ,44,44,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary
+Quận 12,Tô Ký,20,20,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary
+Quận 12,Hà Huy Giáp,14,13,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary
+Bình Tân,Kinh Dương Vương,24,24,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary
+Bình Tân,QL1 / Lê Đức Anh,44,44,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary
+Bình Tân,Tên Lửa,28,28,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary
+Bình Tân,Tân Kỳ Tân Quý,22,21,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary
+Bình Tân,Võ Trần Chí,14,14,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary
+Bình Thạnh,Xô Viết Nghệ Tĩnh,11,11,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary
+Bình Thạnh,Quốc lộ 13,7,7,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary
+Bình Thạnh,Đinh Bộ Lĩnh,9,9,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary
+Bình Thạnh,Nguyễn Xí,6,6,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary
+Bình Thạnh,Nơ Trang Long,12,12,2,REVIEW_PAIRS_CREATED,Geolocate anchor/rent listing and select supported segment; validate OSM route and boundary

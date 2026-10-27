@@ -1,0 +1,9 @@
+{
+  "old_corridors_requested": 15,
+  "intersection_candidates_exported": 550,
+  "corridors_with_candidates": 11,
+  "source": "D:\\IcareWork\\Place for icare\\Data\\Raw\\vietnam-latest.osm.pbf",
+  "bbox_method": "observed competitor GPS + 1.8km padding; incomplete geographic coverage",
+  "auto_selected_endpoints": 0,
+  "network_requests": 0
+}

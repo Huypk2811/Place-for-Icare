@@ -1,0 +1,52 @@
+﻿corridor_name,district_old,osmid,latitude,longitude,matched_names,crossing_names,source,method,review_status,endpoint_role
+Tô Ký,Quận 12,2644411365,10.4898771,107.1741152,Tô Ký | Đường Tô Ký,Ngô Gia Tự,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,5461648181,10.4914327,107.174204,Tô Ký | Đường Tô Ký,Châu Văn Biếc,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,5461648182,10.4918978,107.174222,Tô Ký | Đường Tô Ký,Bạch Đằng,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,2725071566,10.5845417,107.0605271,Tô Ký | Đường Tô Ký,Lý Thường Kiệt,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,6984719875,10.5845451,107.0619185,Tô Ký | Đường Tô Ký,Vũ Trọng Phụng,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,2211069707,10.8474961,106.6351029,Tô Ký | Đường Tô Ký,Nguyễn Văn Quá,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,2211069707,10.8474961,106.6351029,Tô Ký | Đường Tô Ký,Quang Trung,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,5308090189,10.8486863,106.6333793,Tô Ký | Đường Tô Ký,Đông Hưng Thuận 26,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,2321456772,10.8490894,106.6328223,Tô Ký | Đường Tô Ký,Hẻm 165 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,8366025003,10.8491654,106.632716,Tô Ký | Đường Tô Ký,Hẻm 167 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,4069486242,10.8494226,106.6251994,Tô Ký | Đường Tô Ký,Đỗ Mười,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,3095373929,10.8495873,106.6321258,Tô Ký | Đường Tô Ký,Đông Hưng Thuận 27,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,5740397773,10.8498438,106.6320395,Tô Ký | Đường Tô Ký,Đông Hưng Thuận 17,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,2210737290,10.8502831,106.6258311,Tô Ký | Đường Tô Ký,Cầu vượt Quang Trung,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,3636153301,10.8503233,106.6310688,Tô Ký | Đường Tô Ký,Cầu vượt Quang Trung 2,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,8747741227,10.8503905,106.6310978,Tô Ký | Đường Tô Ký,Cầu vượt Quang Trung 1,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,4069469205,10.8506954,106.6285266,Tô Ký | Đường Tô Ký,Đỗ Mười,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,4069480176,10.8511266,106.6288482,Tô Ký | Đường Tô Ký,Đỗ Mười,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,3638264157,10.8516716,106.6315208,Tô Ký | Đường Tô Ký,Cầu vượt Quang Trung,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,2210755368,10.8522116,106.6265153,Tô Ký | Đường Tô Ký,Cầu vượt Quang Trung 2,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,2210847655,10.8522351,106.6318174,Tô Ký | Đường Tô Ký,Đông Hưng Thuận 27,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,366478779,10.85232,106.626653,Tô Ký | Đường Tô Ký,Cầu vượt Quang Trung 1,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,4069480135,10.8524436,106.6320037,Tô Ký | Đường Tô Ký,Đỗ Mười,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,5733411465,10.8527736,106.6262305,Tô Ký | Đường Tô Ký,Hẻm 369 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,2210755369,10.8536211,106.6257115,Tô Ký | Đường Tô Ký,Hẻm 401 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,2210755365,10.8541619,106.625281,Tô Ký | Đường Tô Ký,Hà Thị Khiêm,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,2210755371,10.8553537,106.6234603,Tô Ký | Đường Tô Ký,Đường Đông Bắc,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,5764885908,10.8573743,106.6197422,Tô Ký | Đường Tô Ký,Tân Chánh Hiệp 35,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,5764885909,10.8588874,106.6178412,Tô Ký | Đường Tô Ký,Hẻm 364 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,5764885909,10.8588874,106.6178412,Tô Ký | Đường Tô Ký,Đường Phan Văn Hùm,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,5764885912,10.8603982,106.6175342,Tô Ký | Đường Tô Ký,Hẻm 414 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,366412672,10.8608559,106.6174592,Tô Ký | Đường Tô Ký,Hẻm 432 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,2210755719,10.861788,106.6172752,Tô Ký | Đường Tô Ký,Hẻm 470 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,4178488557,10.8622756,106.617142,Tô Ký | Đường Tô Ký,Hẻm 486 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,5764948657,10.8627552,106.6170057,Tô Ký | Đường Tô Ký,Hẻm 498 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,5764885914,10.8636265,106.6167567,Tô Ký | Đường Tô Ký,Hẻm 550 Tô Ký,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,366372146,10.8645089,106.6164927,Tô Ký | Đường Tô Ký,Tân Chánh Hiệp 18,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,5755581602,10.8673553,106.6155335,Tô Ký | Đường Tô Ký,Nguyễn Ảnh Thủ,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,5762600894,10.8702846,106.6149339,Tô Ký | Đường Tô Ký,Bùi Văn Ngữ,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,9695735955,10.8719801,106.6135329,Tô Ký | Đường Tô Ký,Ấp Mới Mỹ Huề,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,9695735947,10.8768299,106.6107677,Tô Ký | Đường Tô Ký,Tân Xuân - Trung Chánh 1,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,9695733885,10.8784165,106.6099598,Tô Ký | Đường Tô Ký,Tô Ký - Ngã Ba Tam Đông,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,9695735944,10.8792528,106.6095411,Tô Ký | Đường Tô Ký,Tân Xuân 3,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,9695735936,10.8822471,106.6080146,Tô Ký | Đường Tô Ký,Tân Xuân 2,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,9695733886,10.88248,106.6078982,Tô Ký | Đường Tô Ký,Đường Thới Tam Thôn 18,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,9695735928,10.8863228,106.6043146,Tô Ký | Đường Tô Ký,Đường Tô Ký 12,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,366403994,10.8871653,106.6035322,Tô Ký | Đường Tô Ký,Đường Phạm Thị Giây,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,2414261812,10.8876479,106.6024563,Tô Ký | Đường Tô Ký,Đường Quang Trung,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,1480258246,12.1942018,109.1646266,Tô Ký | Đường Tô Ký,Đường tỉnh 657K,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,6010322534,14.4275568,109.0087299,Tô Ký | Đường Tô Ký,Tố Hữu,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED
+Tô Ký,Quận 12,2054750100,14.4283629,109.0082869,Tô Ký | Đường Tô Ký,Đường Trần Hưng Đạo,Geofabrik Vietnam OSM PBF,shared_osm_node_exact_main_road_name,PROVISIONAL_SCOPE_CHECK,NOT_SELECTED

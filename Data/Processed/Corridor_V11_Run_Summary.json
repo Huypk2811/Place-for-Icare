@@ -1,0 +1,14 @@
+{
+  "corridors": 15,
+  "intersections_indexed": 294,
+  "review_pairs": 30,
+  "corridors_with_review_pairs": 15,
+  "auto_selected_endpoints": 0,
+  "input_workbook": "Data_input_TOP5_FRAMEWORK_V3.xlsx",
+  "limitations": [
+    "Review pairs use straight-line distance as a technical heuristic, not road length",
+    "Historic evidence URLs/anchors apply at corridor level, not verified to paired endpoints",
+    "No attractiveness score or site recommendation",
+    "OSM candidates not independently validated"
+  ]
+}

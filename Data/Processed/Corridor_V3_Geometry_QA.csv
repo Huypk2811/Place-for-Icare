@@ -1,0 +1,9 @@
+﻿candidate_id,district_old,corridor_name,geometry_status,flags,action
+Q7-01,Quận 7,Nguyễn Thị Thập,MIXED_NETWORK_NEEDS_VISUAL_QA,MIXED_NAMED_ROAD_FALLBACK_REVIEW,Review OSM geometry manually; exclude unmatched connector edges from business-point proximity; never equate provisional routing with actual frontage.
+Q7-02,Quận 7,Huỳnh Tấn Phát,PROVISIONAL_NEEDS_VISUAL_QA,,Review OSM geometry manually; exclude unmatched connector edges from business-point proximity; never equate provisional routing with actual frontage.
+Q7-03,Quận 7,Nguyễn Hữu Thọ,MIXED_NETWORK_NEEDS_VISUAL_QA,MIXED_NAMED_ROAD_FALLBACK_REVIEW,Review OSM geometry manually; exclude unmatched connector edges from business-point proximity; never equate provisional routing with actual frontage.
+Q7-04,Quận 7,Nguyễn Văn Linh,MIXED_NETWORK_NEEDS_VISUAL_QA,MIXED_NAMED_ROAD_FALLBACK_REVIEW,Review OSM geometry manually; exclude unmatched connector edges from business-point proximity; never equate provisional routing with actual frontage.
+GV-01,Gò Vấp,Quang Trung,PROVISIONAL_NEEDS_VISUAL_QA,,Review OSM geometry manually; exclude unmatched connector edges from business-point proximity; never equate provisional routing with actual frontage.
+GV-02,Gò Vấp,Phan Văn Trị,PROVISIONAL_NEEDS_VISUAL_QA,SOURCE_INTERSECTION_UNCONFIRMED,Review OSM geometry manually; exclude unmatched connector edges from business-point proximity; never equate provisional routing with actual frontage.
+GV-03,Gò Vấp,Nguyễn Văn Lượng,PROVISIONAL_NEEDS_VISUAL_QA,SOURCE_INTERSECTION_UNCONFIRMED,Review OSM geometry manually; exclude unmatched connector edges from business-point proximity; never equate provisional routing with actual frontage.
+GV-04,Gò Vấp,Nguyễn Oanh,PROVISIONAL_NEEDS_VISUAL_QA,,Review OSM geometry manually; exclude unmatched connector edges from business-point proximity; never equate provisional routing with actual frontage.

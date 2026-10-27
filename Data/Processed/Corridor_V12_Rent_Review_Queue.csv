@@ -1,0 +1,11 @@
+﻿district_old,corridor_name,issue,clean_rent_n,historic_median,action
+Quận 12,Lê Văn Khương,HISTORIC_MEDIAN_NOT_ELIGIBLE,1,2,Do not use median. Inspect individual listings and reconcile previous locked sample set.
+Quận 12,Nguyễn Ảnh Thủ,HISTORIC_MEDIAN_NOT_ELIGIBLE,2,8.4,Do not use median. Inspect individual listings and reconcile previous locked sample set.
+Quận 12,Tô Ký,HISTORIC_MEDIAN_NOT_ELIGIBLE,2,8.5,Do not use median. Inspect individual listings and reconcile previous locked sample set.
+Bình Tân,Tên Lửa,VERIFY_LISTING_INDEPENDENCE_AND_SCOPE,3,10,"Check clean_current+usable_current, duplicates, listing date, exact address before validating median."
+Bình Tân,Tân Kỳ Tân Quý,VERIFY_LISTING_INDEPENDENCE_AND_SCOPE,3,8,"Check clean_current+usable_current, duplicates, listing date, exact address before validating median."
+Bình Thạnh,Xô Viết Nghệ Tĩnh,VERIFY_LISTING_INDEPENDENCE_AND_SCOPE,3,10,"Check clean_current+usable_current, duplicates, listing date, exact address before validating median."
+Bình Thạnh,Quốc lộ 13,VERIFY_LISTING_INDEPENDENCE_AND_SCOPE,3,10,"Check clean_current+usable_current, duplicates, listing date, exact address before validating median."
+Bình Thạnh,Đinh Bộ Lĩnh,VERIFY_LISTING_INDEPENDENCE_AND_SCOPE,3,15,"Check clean_current+usable_current, duplicates, listing date, exact address before validating median."
+Bình Thạnh,Nguyễn Xí,HISTORIC_MEDIAN_NOT_ELIGIBLE,1,9,Do not use median. Inspect individual listings and reconcile previous locked sample set.
+Bình Thạnh,Nơ Trang Long,VERIFY_LISTING_INDEPENDENCE_AND_SCOPE,3,13,"Check clean_current+usable_current, duplicates, listing date, exact address before validating median."

@@ -1,0 +1,8 @@
+{
+  "main_road_ways": 29,
+  "main_road_nodes": 342,
+  "raw_shared_node_crossings": 58,
+  "candidate_rows_after_45m_same_name_dedup": 51,
+  "auto_selected_endpoints": 0,
+  "caveat": "No administrative boundary check; review each candidate before adding to V7 or selecting endpoints"
+}
